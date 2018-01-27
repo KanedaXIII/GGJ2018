@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour {
 
     private static GameManager instance = null;
 
+    public float volumeAudio = 1.0f;
+
     public static GameManager Instance
     {
         get
