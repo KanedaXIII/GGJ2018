@@ -25,13 +25,15 @@ public class PlayerController : MonoBehaviour {
         if (coll.gameObject.tag.Equals("Boquete"))
         {
             caida = true;
-            Debug.Log("caida");
         }
-
+        if (coll.gameObject.tag.Equals("Final"))
+        {
+            GameManager.Instance.LoadeScene("reset");
+        }
     }
-    
 
-        void Movimiento() {
+
+    void Movimiento() {
             float EjeX =  Input.GetAxis("Horizontal");
             float EjeY =  Input.GetAxis("Vertical");
         Vector2 mov = new Vector2(EjeX*Velocidad ,EjeY*Velocidad) ;
