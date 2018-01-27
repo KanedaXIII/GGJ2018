@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Prefabs/Scenes/TestAlbersan.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/testPablo.unity
+=======
+- path: Assets/Scenes/TestAlbersan.unity
+>>>>>>> 866e10a43ae4c393c807f01e8ecc7eb6f4e0b63f
+>>>>>>> 4b66d5ebc33336e17914a98d7346fb0d284e7ea2
   isLoaded: 1
   isActive: 1
